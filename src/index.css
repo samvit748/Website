@@ -8,33 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Core brand colors for Sourabh Coaching Centre */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 200 100% 21.2%; /* Navy #05386B */
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 200 100% 21.2%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 200 100% 21.2%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Academic Navy */
+    --primary: 200 100% 21.2%; /* #05386B */
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary: Academic Gold */
+    --secondary: 42 100% 46.5%; /* #ECA400 */
+    --secondary-foreground: 200 100% 21.2%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Muted: Warm Grey */
+    --muted: 0 0% 96.1%; /* #F5F5F5 */
+    --muted-foreground: 200 15% 45%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Gold variants */
+    --accent: 42 100% 46.5%;
+    --accent-foreground: 200 100% 21.2%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 200 20% 88%;
+    --input: 200 20% 88%;
+    --ring: 42 100% 46.5%;
+
+    /* Custom coaching center tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(200 100% 21.2%), hsl(200 80% 35%));
+    --gold-gradient: linear-gradient(135deg, hsl(42 100% 46.5%), hsl(38 100% 55%));
+    --success: 120 60% 50%;
+    --success-foreground: 0 0% 100%;
+    
+    /* Shadows and effects */
+    --shadow-coaching: 0 10px 30px -10px hsl(200 100% 21.2% / 0.2);
+    --shadow-gold: 0 4px 20px hsl(42 100% 46.5% / 0.3);
+    
+    /* Animation variables */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
@@ -100,6 +118,10 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
   }
 }
