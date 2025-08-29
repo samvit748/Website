@@ -37,7 +37,7 @@ const Footer = () => {
                     onClick={handleCall}
                     className="hover:text-secondary transition-colors"
                   >
-                    7595977907 / 8777688171
+                    8777688171
                   </button>
                 </div>
               </div>
