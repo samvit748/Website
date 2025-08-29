@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 export default {
 	darkMode: ["class"],
 	content: [
@@ -77,6 +78,10 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			keyframes: {
+				fadeIn: {
+					from: { opacity: "0", transform: "translateY(20px)" },
+					to:   { opacity: "1", transform: "translateY(0)" }
+				},
 				'accordion-down': {
 					from: {
 						height: '0'
@@ -95,6 +100,8 @@ export default {
 				}
 			},
 			animation: {
+				"fade-in": "fadeIn 0.6s ease-out forwards",
+        		"fade-in-delay": "fadeIn 0.6s ease-out 200ms forwards",
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
 			}

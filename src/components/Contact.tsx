@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, MessageCircle, Clock, Mail } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import LocationIframe from "@/components/LocationIframe";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -84,6 +85,21 @@ const Contact = () => {
                   West Bengal, India
                 </p>
               </CardContent>
+
+              <div className="px-6 pb-6">
+    <div className="rounded-lg overflow-hidden shadow-sm">
+      <iframe
+        title="Sourabh Coaching Centre location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14744.854113517797!2d88.27472959644368!3d22.496170417648223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bc618bd9d89%3A0xa53b3881560872eb!2sGreenfield%20City%2C%20Behala%20Mauza%2C%20Maheshtala%2C%20West%20Bengal%20700141!5e0!3m2!1sen!2sin!4v1756394156438!5m2!1sen!2sin"
+        width="100%"
+        height="250"
+        style={{ border: 0 }}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        allowFullScreen
+      />
+    </div>
+  </div>
             </Card>
 
             <Card>

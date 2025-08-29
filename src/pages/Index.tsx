@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Classes from "@/components/Classes";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import FAQ from "@/components/FAQ";
 
 const Index = () => {
   return (
@@ -13,7 +14,10 @@ const Index = () => {
         <Hero />
         <About />
         <Classes />
+        <FAQ />
         <Contact />
+
+       
       </main>
       <Footer />
     </div>
