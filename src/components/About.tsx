@@ -57,7 +57,7 @@ const About = () => {
 
   // Handle WhatsApp contact
   const handleWhatsApp = () => {
-    window.open("https://wa.me/917595977907?text=Hi%20I%20want%20to%20know%20more%20about%20your%20teaching%20methods", "_blank");
+    window.open("https://wa.me/918777688171?text=Hi%20I%20want%20to%20know%20more%20about%20your%20teaching%20methods", "_blank");
   };
 
   // Intersection Observer for stats animation

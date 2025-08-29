@@ -30,7 +30,7 @@ const Contact = () => {
     }
 
     const whatsappMessage = `Hi, I'm ${name}. I need tuition for Class ${studentClass}. Contact: ${phone}. ${message ? `Message: ${message}` : ''}`;
-    window.open(`https://wa.me/917595977907?text=${encodeURIComponent(whatsappMessage)}`, "_blank");
+    window.open(`https://wa.me/918777688171?text=${encodeURIComponent(whatsappMessage)}`, "_blank");
     
     toast({
       title: "Message Sent!",
@@ -41,11 +41,11 @@ const Contact = () => {
   };
 
   const handleCall = () => {
-    window.open("tel:+917595977907", "_self");
+    window.open("tel:+918777688171", "_self");
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/917595977907?text=Hi%20I%20want%20to%20enquire%20about%20tuition%20classes", "_blank");
+    window.open("https://wa.me/918777688171?text=Hi%20I%20want%20to%20enquire%20about%20tuition%20classes", "_blank");
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -129,7 +129,7 @@ const Contact = () => {
                 <Phone className="w-5 h-5 mr-2" />
                 <div className="text-left">
                   <div className="font-semibold">Call Now</div>
-                  <div className="text-sm">7595977907</div>
+                  <div className="text-sm">8777688171</div>
                 </div>
               </Button>
               
@@ -137,7 +137,7 @@ const Contact = () => {
                 <MessageCircle className="w-5 h-5 mr-2" />
                 <div className="text-left">
                   <div className="font-semibold">WhatsApp</div>
-                  <div className="text-sm">9330841968</div>
+                  <div className="text-sm">8777688171</div>
                 </div>
               </Button>
             </div>

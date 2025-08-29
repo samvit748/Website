@@ -5,11 +5,11 @@ import heroImage from "@/assets/hero-classroom.jpg";
 
 const Hero = () => {
   const handleCall = () => {
-    window.open("tel:+917595977907", "_self");
+    window.open("tel:+918777688171", "_self");
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/917595977907?text=Hi%20I%20need%20tuition%20for%20my%20child%20in%20Kolkata", "_blank");
+    window.open("https://wa.me/918777688171?text=Hi%20I%20need%20tuition%20for%20my%20child%20in%20Kolkata", "_blank");
   };
 
   const structuredData = {
@@ -19,7 +19,7 @@ const Hero = () => {
     "name": "Sourabh Coaching Centre - Best Tutor in Kolkata",
     "description": "Expert Math & Science tutor in Kolkata with 10+ years experience. Specialized tuition for Classes 5-10 CBSE & ICSE curriculum in Greenfield City.",
     "url": "https://yourwebsite.com",
-    "telephone": "+917595977907",
+    "telephone": "+918777688171",
     "priceRange": "$$",
     "image": ["https://yourwebsite.com/hero-classroom.jpg"],
     "address": {
@@ -102,7 +102,7 @@ const Hero = () => {
               {/* Location Badge */}
               <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-sm">
                 <MapPin className="w-4 h-4" />
-                <span>Serving Kolkata • Greenfield City • New Town</span>
+                <span>Serving Kolkata • Greenfield City </span>
               </div>
 
               {/* Main Heading with Local SEO */}
@@ -148,7 +148,7 @@ const Hero = () => {
                   className="bg-secondary hover:bg-secondary/90 text-primary font-semibold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call Best Tutor: 7595977907
+                  Call Best Tutor: 8777688171
                 </Button>
                 <Button 
                   onClick={handleWhatsApp}

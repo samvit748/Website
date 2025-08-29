@@ -6,11 +6,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleCall = () => {
-    window.open("tel:+917595977907", "_self");
+    window.open("tel:+918777688171", "_self");
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/917595977907?text=Hi%20I%20need%20tuition%20for%20my%20child", "_blank");
+    window.open("https://wa.me/918777688171?text=Hi%20I%20need%20tuition%20for%20my%20child", "_blank");
   };
 
   return (

@@ -43,7 +43,7 @@ const Classes = () => {
 
   const handleBookDemo = (grade: string) => {
     const message = `Hi, I want to book a demo class for ${grade}. Please let me know the available slots.`;
-    window.open(`https://wa.me/917595977907?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/918777688171?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
