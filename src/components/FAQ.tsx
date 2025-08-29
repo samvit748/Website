@@ -25,7 +25,7 @@ const FAQ = () => {
     },
     {
       question: "What is the fee structure for the best tutor in Kolkata?",
-      answer: "Our tuition fees in Kolkata are competitive and vary based on class and subjects. Contact us at 7595977907 for detailed fee information. We offer quality education at affordable rates in Greenfield City, Kolkata."
+      answer: "Our tuition fees in Kolkata are competitive and vary based on class and subjects. Contact us at 8777688171 for detailed fee information. We offer quality education at affordable rates in Greenfield City, Kolkata."
     },
     {
       question: "Do you provide home tuition services in Kolkata?",
@@ -33,7 +33,7 @@ const FAQ = () => {
     },
     {
       question: "How to contact the best Math tutor in Kolkata?",
-      answer: "You can contact Kolkata's best math tutor by calling 7595977907 or WhatsApp us for immediate response. Visit our center at 55-2C, Greenfield City, Jote Shibrampur, Kolkata - 700141."
+      answer: "You can contact Kolkata's best math tutor by calling 8777688171 or WhatsApp us for immediate response. Visit our center at 55-2C, Greenfield City, Jote Shibrampur, Kolkata - 700141."
     },
     {
       question: "What are the class timings for tuition in Kolkata?",
