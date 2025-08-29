@@ -19,17 +19,17 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-heading font-bold text-primary">
+            <div className="text-xl font-heading font-bold text-primary">
               Sourabh Coaching Centre
-            </h1>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
             <a href="#classes" className="text-foreground hover:text-primary transition-colors">Classes</a>
-            <a href="#subjects" className="text-foreground hover:text-primary transition-colors">Subjects</a>
-            <a href="#results" className="text-foreground hover:text-primary transition-colors">Results</a>
+            {/* <a href="#subjects" className="text-foreground hover:text-primary transition-colors">Subjects</a>
+            <a href="#results" className="text-foreground hover:text-primary transition-colors">Results</a> */}
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
           </nav>
 

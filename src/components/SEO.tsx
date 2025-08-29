@@ -41,7 +41,7 @@ const SEO = ({
         ],
         "description": "Premier mathematics and science tutor in Kolkata with 10+ years experience. Specialized CBSE/ICSE coaching for Classes 5-10 with 100% pass rate in Greenfield City, Behala.",
         "url": url,
-        "telephone": ["+918777688171", "+918777688171"],
+        "telephone": "+918777688171",
         "email": "contact@sourabhcoaching.com", // Add if available
         "priceRange": "₹₹",
         "paymentAccepted": ["Cash", "UPI", "PhonePe", "GooglePay", "Bank Transfer"],
